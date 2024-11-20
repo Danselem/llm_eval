@@ -7,7 +7,7 @@ import google.generativeai as genai
 
 
 def configure_env(project_name: str):
-    dotenv_path = Path('./.env')
+    dotenv_path = Path('../.env')
     load_dotenv(dotenv_path=dotenv_path)
 
     os.environ["OPIK_API_KEY"] = os.getenv("OPIK_API_KEY")

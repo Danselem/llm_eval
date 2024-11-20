@@ -1,4 +1,5 @@
-opik 
+opik
+comet_ml
 litellm
 python-dotenv
 google-generativeai
