@@ -1,0 +1,4 @@
+opik 
+litellm
+python-dotenv
+google-generativeai
