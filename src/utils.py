@@ -11,6 +11,7 @@ def configure_env(project_name: str):
     load_dotenv(dotenv_path=dotenv_path)
 
     os.environ["OPIK_API_KEY"] = os.getenv("OPIK_API_KEY")
+    os.environ["GOOGLE_API_KEY"] = os.getenv("GOOGLE_API_KEY")
 
     os.environ["OPIK_PROJECT_NAME"] = project_name
     genai.configure(api_key=os.getenv("GEMINI_API_KEY"))

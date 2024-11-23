@@ -3,3 +3,6 @@ comet_ml
 litellm
 python-dotenv
 google-generativeai
+langchain-google-genai
+ragas
+nltk
